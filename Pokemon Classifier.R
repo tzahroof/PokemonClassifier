@@ -13,7 +13,7 @@ cat("\014") # clears the console
 rm(list=ls()) #clears all objects from the environment
 
 #laptop workspace
-setwd("C:/Users/tariq/OneDrive/Projects and Memes/Pokemon classifier")
+setwd("C:/Users/tariq/OneDrive/Projects and Memes/PokemonClassifier")
 
 pokedata<- read.csv("./smogon.csv", as.is=T)
 
